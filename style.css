@@ -1,0 +1,98 @@
+header {
+    background-color: rgba(0, 0, 0, 0.849);
+    display: flex;
+    align-items: center;
+    border: solid 3px black;
+    user-select:none;
+}
+
+div {
+    background-color: rgba(127, 127, 127, 255);
+}
+
+
+h2 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+header>section:nth-last-child(3) {
+    color: #ffffff;
+}
+
+h4 {
+    color: rgb(12, 1, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+main {
+    margin: 1px;
+    padding: 5px;
+    display: flex;
+    user-select:none;
+    border: solid 2px black;
+}
+
+section {
+    margin: 1px;
+    padding: 5px;
+    width: 75%;
+}
+
+aside {
+    margin: 1px;
+    padding: 5px;
+    background-color: rgba(21,21,21,255);
+    width: 30%;
+    height: 5%;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+button{
+    padding: 2px;
+    width: 25%;
+}
+article {
+    margin: 20px;
+    padding: 50px;
+    height: 150px;
+    background-color: rgba(21,21,21,255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+
+    user-select:none;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border: solid 3px black;
+    color: #ffffff;
+}
+
+.inicio,
+.Contato,
+.Promoções{
+    padding: 10px 8px;
+    width: 50px;
+    color: #ffffff;
+    border-radius: 5px;
+    user-select: none;
+    transition: 1s;
+    text-decoration:none;
+    text-align: center;
+    letter-spacing: 9px;
+margin-left: 12px ;
+}
